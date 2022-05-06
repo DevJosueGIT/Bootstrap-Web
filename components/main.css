@@ -34,6 +34,7 @@ body{
     padding-bottom: 300px;
     display: flex;
     justify-content: center !important;
+    margin-bottom: 250px;
 }
 
 
@@ -61,7 +62,51 @@ body{
 }
 #numeros-local p{
     margin: 0;
-    
+}
+#bg-img{
+    background-image: #152241;
+}
+
+#bg-contacto{
+    position: relative;
+    top:-140px;
+}
+
+#seccion-contacto{
+    background-color: #152241 !important;
+    min-height: 600px;
+    position: relative;
+}
+
+#contenedor-formulario{
+    position: absolute;
+    margin-top: 30px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario{
+    color: #3f3f3f;
+}
+
+footer{
+    background-color: #152241;
+    min-height: 100px;
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
 }
 
 /*MEDIA QUERIES PANTALLA GRANDE*/
@@ -85,6 +130,13 @@ body{
     .servicio-fila{
         width: 100% !important;
         text-align: center;
+    }
+    #equipo p{
+        display: none;
+    }
+    #bg-contacto{
+        position: relative;
+        top:-120px;
     }
 }
 
